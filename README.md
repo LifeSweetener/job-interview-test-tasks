@@ -69,5 +69,35 @@
   <p align="jusify">1. Каким будет значение провода <code>a</code> по вашей инструкции?</p>
   <p align="jusify">2. Если у вас получилось выявить значение сигнала провода <code>a</code>, то начните собирать схему заново по той же инструкции; но только проводу <code>b</code> вместо значения, указанного в этой инструкции, подайте другое значение — значение провода <code>a</code>, полученное в первом пункте задачи. А теперь какой сигнал у Вас получился на проводе <code>a</code>?
 </li>
+
+<li>
+  <p align="jusify">Вам с вашими друзьями нужно пройти через охрану одной раздевалки. Вы по очереди записываете в журнал время дежурства всех охранников и подмечаете, когда они засыпают и просыпаются. Получилась такая сводка — <a href="#3.txt">3.txt</a>.</p>
+  <p align="jusify">Вы вместе с друзьями также замечаете, что охранники всегда засыпают между полуночью и часом ночи. Поэтому остаются важны только сами минуты, а не часы!</p>
+  <p align="jusify">Например, ниже показан журнал с двумя охранниками, сменяющими друг друга.</p>
+  <table align="center"><tr><td>
+  <p align="center"><code>[2022-01-01 23:54] Guard #123 begins shift</code><br></p>
+  <p align="center"><code>[2022-01-01 00:11] falls asleep</code><br></p>
+  <p align="center"><code>[2022-01-01 00:34] wakes up</code><br></p>
+  <p align="center"><code>[2022-01-01 00:39] Guard #654 begins shift</code><br></p>
+  <p align="center"><code>[2022-01-01 00:50] falls asleep</code><br></p>
+  <p align="center"><code>[2022-01-01 00:58] wakes up</code><br></p>
+  <p align="center"><code>[2022-01-02 23:59] Guard #654 begins shift</code><br></p>
+  <p align="center"><code>[2022-01-02 00:06] falls asleep</code><br></p>
+  <p align="center"><code>[2022-01-02 00:20] wakes up</code><br></p>
+  <p align="center"><code>[2022-01-02 00:25] Guard #123 begins shift</code><br></p>
+  <p align="center"><code>[2022-01-02 00:33] falls asleep</code><br></p>
+  <p align="center"><code>[2022-01-02 00:50] wakes up</code><br></p>
+  <p name="example3" align="center"><b>ПРИМЕР 3</b></p>
+  </td></tr></table>
+  <p align="jusify">Можно построить таблицу, чтобы было нагляднее и было ясно, о чём речь:</p>
+  <p align="jusify">
+    <table>
+      <tr>
+        <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td>32</td><td>33</td><td>34</td><td>35</td><td>36</td><td>37</td><td>38</td><td>39</td><td>40</td><td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td><td>49</td><td>50</td><td>51</td><td>52</td><td>53</td><td>54</td><td>55</td><td>56</td><td>57</td><td>58</td><td>59</td><td>60</td>
+      </tr>
+    </table>
+  </p>
+  <p align="jusify">Определите по этим записям номер охранника, который чаще других спал в конкретную минуту, и саму эту минуту, когда этот охранник спал чаще, чем все остальные охранники в любую другую минуту.</p>
+</li>
 </ol>
 </p>
