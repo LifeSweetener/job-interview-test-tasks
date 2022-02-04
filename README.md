@@ -35,7 +35,7 @@
     <ul>
       <li>
         <p align="jusify">Пусть IP-адреса состоят только из букв латинского алфавита и будут произвольной длины, причём каждый адрес поделён на части: квадратные скобки (одна или несколько пар) также вставлены в адреса. Например, ip может выглядить так:<br></p>
-        <table align="center" width="50 vw" height="20 vh"><tr><td>
+        <table align="center" width="75 vw" height="50 vh"><tr><td>
         <p align="center">1) <code>aba[bab]</code></p>
         <p align="center">2) <code>adakh[babd]pp</code></p>
         <p align="center">3) <code>grkrh[bkooi]asz[krk]</code></p>
