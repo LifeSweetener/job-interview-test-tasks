@@ -176,7 +176,7 @@
 
   <table align="center">
     <tr>
-      <td>#</td><td>.</td><td>.</td><td>#</td><td>.</td><td>.</td>
+      <td>#</td><td>.</td><td>.</td><td>.</td><td>#</td><td>.</td>
     </tr>
     <tr>
       <td>#</td><td>#</td><td>#</td><td>.</td><td>.</td><td>.</td>
@@ -189,7 +189,7 @@
 
   <table align="center">
     <tr>
-      <td>#</td><td>#</td><td>.</td><td>#</td><td>.</td><td>.</td>
+      <td>#</td><td>#</td><td>.</td><td>.</td><td>#</td><td>.</td>
     </tr>
     <tr>
       <td>#</td><td>.</td><td>#</td><td>.</td><td>.</td><td>.</td>
