@@ -305,7 +305,7 @@
     <td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
   </tr>
   <tr>
-    <td><b>ОТВЕТ</b></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+    <td><b>ОТВЕТ</b></td><td><img src="img/1.jpg"></img></td><td>2</td><td><img src="img/3.jpg"></img></td><td><img src="img/4.jpg"></img></td><td><img src="img/5.jpg"></img></td>
   </tr>
 </table>
 </p>
