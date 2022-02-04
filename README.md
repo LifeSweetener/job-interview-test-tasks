@@ -16,7 +16,15 @@
     <ul>
       <li><a href="#intro">Введение</a></li>
       <li><a href="#goal">Цель работы</a></li>
-      <li><a href="#list">Список заданий</a></li>
+      <li><a href="#list">Список заданий</a>
+        <ol type="1">
+          <li><a href="#task1">Сеть компании</a></li>
+          <li><a href="#task2">Электрическая схема</a></li>
+          <li><a href="#task3">Охрана раздевалки</a></li>
+          <li><a href="#pswd">Расшифровка пароля</a></li>
+          <li><a href="#5 task">Сломанный экран</a></li>
+        </ol>
+      </li>
       <li><a href="#comments">Комментарии к коду в репозитории</a></li>
       <li><a href="#ans">Ответы к заданиям</a></li>
     </ul>
