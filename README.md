@@ -59,12 +59,15 @@
       <li><p align="center"><code>1 -> a</code></p></li>
   <li><p align="center"><code>5 -> b</code></p></li>
   <li><p align="center"><code>NOT a -> c</code></p></li>
-  <li><p align="center"><code>e AND b -> d</code></p></li>
+  <li><p align="center"><code>e OR b -> d</code></p></li>
   <li><p align="center"><code>c LSHIFT b -> e</code></p></li>
     </ol>
     <p name="example2" align="center"><b>ПРИМЕР 2</b></p>
     </td></tr></table>
-  <p align="jusify">при первом проходе</p>
+  <p align="jusify">при первом проходе подаст сигнал на такие провода: <code>a = 1</code>, <code>b = 5</code>, <code>c = -2</code> и <code>e = -64</code>. Но провод <code>d</code> будет без сигнала, потому что при подходе к нему сигнал провода <code>e</code> отсутствовал (см. четвёртую строку в <a href="#example2">примере</a>), и вентиль "AND" не заработал.</p>
+  <p align="jusify">Это значит, что нужно сделать ещё один проход по инструкции с уже известными сигналами проводов. Тогда сигнал в проводе <code>d</code> появится и станет равным значению <code>-59</code>!</p>
+  <p align="jusify">1. Каким будет значение провода <code>a</code> по вашей инструкции?</p>
+  <p align="jusify">2. Если у вас получилось выявить значение сигнала провода <code>a</code>, то начните собирать схему заново по той же инструкции; но только проводу <code>b</code> вместо значения, указанного в этой инструкции, подайте другое значение — значение провода <code>a</code>, полученное в первом пункте задачи. А теперь какой сигнал у Вас получился на проводе <code>a</code>?
 </li>
 </ol>
 </p>
