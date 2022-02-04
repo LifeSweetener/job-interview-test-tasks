@@ -53,16 +53,18 @@
   <li>
   <p align="jusify">Это задание связано с проводами и логическими вентилями. Представьте, что Вам дали совокупность проводов и набор логических вентилей, к которым подсоединяются эти провода: вентиль "NOT", вентиль "AND", "OR", "LSHIFT" и "RSHIFT" — всего пять разновидностей логических вентилей. Вам сказали собрать логическую схему из этого набора проводов и вентилей с помощью инструкции (см. файл этого репозитория <code><a href="2.txt">2.txt</a></code>).</p>
   <p align="jusify">Каждый провод может иметь в себе сигнал (выражающийся любым числом в пределах от 0 до 65535). Логические вентили могут иметь один или два входа и имеют один выход — они не заработают и не подадут на выход сигнал, если на каком-либо из их входов не будет сигнала. Знак выхода вентиля и, значит, входа провода обозначается как <code>-></code>.</p>
-  <table align="center"><tr><td>
     <p align="jusify">Например, пусть у нас в наличии будет пять проводов: <code>a</code>, <code>b</code>, <code>c</code>, <code>d</code> и <code>e</code>. Тогда следующая инструкция:<br></p>
-  <p align="center"><code>1 -> a</code></p>
-  <p align="center"><code>5 -> b</code></p>
-  <p align="center"><code>NOT a -> c</code></p>
-  <p align="center"><code>e AND b -> d</code></p>
-  <p align="center"><code>c LSHIFT b -> e</code></p>
-    <p align="center"><b>ПРИМЕР 2</b></p>
+  <table align="center"><tr><td>
+    <ol type="1">
+      <li><p align="center"><code>1 -> a</code></p></li>
+  <li><p align="center"><code>5 -> b</code></p></li>
+  <li><p align="center"><code>NOT a -> c</code></p></li>
+  <li><p align="center"><code>e AND b -> d</code></p></li>
+  <li><p align="center"><code>c LSHIFT b -> e</code></p></li>
+    </ol>
+    <p name="example2" align="center"><b>ПРИМЕР 2</b></p>
     </td></tr></table>
-  <p align="jusify">даст результат </p>
+  <p align="jusify">при первом проходе</p>
 </li>
 </ol>
 </p>
