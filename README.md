@@ -315,7 +315,7 @@
     <td></td><td align="center"><b>1</b></td><td align="center"><b>2</b></td><td align="center"><b>3</b></td><td align="center"><b>4</b></td><td align="center"><b>5</b></td>
   </tr>
   <tr>
-    <td><b>ОТВЕТ</b></td><td><img src="img/1.jpg"></img></td><td>2</td><td><img src="img/3.jpg"></img></td><td><img src="img/4.jpg"></img></td><td><img src="img/5.jpg"></img></td>
+    <td><b>ОТВЕТ</b></td><td><img src="img/1.jpg"></img></td><td><img src="img/2.jpg"></img></td><td><img src="img/3.jpg"></img></td><td><img src="img/4.jpg"></img></td><td><img src="img/5.jpg"></img></td>
   </tr>
 </table>
 </p>
