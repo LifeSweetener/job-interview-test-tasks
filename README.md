@@ -90,8 +90,8 @@
   <p name="example3" align="center"><b>ПРИМЕР 3</b></p>
   </td></tr></table>
   <p align="jusify">Можно построить таблицу, чтобы было нагляднее и было ясно, о чём речь:</p>
-  <p align="jusify">
-    <table>
+  <p align="justify">
+    <table align="center">
       <tr>
       <td><b>Номер охранника</b></td><td colspan="60"><b>Минуты</b></td>
       </tr>
